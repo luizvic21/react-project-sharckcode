@@ -6,7 +6,7 @@ import Login from './Pages/Login';
 function Routes() {
     return (
         <BrowserRouter>
-            <Route path="/" component={ Login } />
+            <Route path="/" component={Login} exact />
         </BrowserRouter>
     )
 }
